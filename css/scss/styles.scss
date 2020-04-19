@@ -1,0 +1,22 @@
+@import 'abstracts/variables';
+@import 'base/fonts';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/home';
+@import 'pages/cupcakes';
+
+.container{
+    background: $third-color;
+}
+
+
+
+body{
+    background:#E9E0DD;
+}
+
+.titulo{
+    font-family: $tittle-font;
+    font-size: 30px;
+    color: $text-color;
+}

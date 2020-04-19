@@ -1,0 +1,43 @@
+.footer{
+    background: $primary-color;
+    color: $third-color;
+    font-family: $text-font;
+    font-weight: 300;
+}
+
+.copy{
+    h6{
+        margin-bottom: 0;
+    }
+}
+
+.footer-iconos{
+    font-size: 22px;
+
+    i{
+        color: $third-color;
+        margin: 10px;
+        &:hover{
+            color: #036078;
+        }
+    }
+}
+
+/*-- MediaQueries --*/
+
+@media screen and (max-width:767px){
+    .footer{
+        text-align: center;
+        h6{
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+    }
+    .footer-iconos{
+        font-size: 18px;
+        i{
+            margin: 0px 10px;
+        }
+    }
+}

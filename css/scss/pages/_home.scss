@@ -1,0 +1,155 @@
+.card{
+    //height: 350px;
+    padding: 30px;
+    box-shadow: 2px 6px 8px #666; 
+    
+    .card-img-top{
+        width: 70%;
+    }
+
+    .card-title{
+        font-family: $text-font;
+        font-weight: bold;
+    }
+
+    .btn{
+        background: $second-color;
+        border: none;
+        color: #000;
+        font-family: $text-font;
+        font-weight: 300;
+        border-radius: 30px;
+        width: auto;
+        padding: 5px 15px;
+        &:hover{
+            background: $primary-color;
+            color: $third-color;
+        }
+    }
+
+}
+
+.about-us{
+    background: $primary-color;
+}
+
+.about-us-texto{
+    color: $third-color;
+    font-family: $text-font;
+    font-weight: 300;
+    padding: 30px;
+    h2{
+        font-weight: bold;
+        font-family: $tittle-font;
+    }
+    hr{
+        background-color:$third-color;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    p{
+        margin-left: 30px;
+        font-size: 22px;
+    }
+}
+
+.about-us-img{
+    padding: 0;
+}
+
+.contacto{
+    box-shadow: 3px 6px 8px #666; 
+}
+
+.contacto-info-datos{
+    background:$second-color;
+    height: 300px;
+    box-shadow: 0 6px 8px #666; 
+    order: 0;
+}
+
+.contacto-info-datos-2{
+    background:$second-color;
+    height: 300px;
+    box-shadow: 0 6px 8px #666; 
+    order: 0;
+    .datos-texto{
+        padding-left: 0;
+        font-size: 15px;
+        text-align: center;
+        span{
+            img{
+                width: 18%;
+            }
+        }
+    }
+}
+
+.contacto-info-map{
+    padding: 0;
+    background: seagreen;
+    height: 300px;
+    order: 1;
+    iframe{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+.icono{
+    padding: 0;
+
+    img{
+        width: 80%;
+
+    }
+}
+
+.datos{
+    p{
+        font-family: $text-font;
+        font-weight: 300;
+        font-size: 16;
+        margin: 0;
+    }
+}
+
+.datos-texto{
+    padding-right: 0;
+}
+
+
+/*-- MediaQueries --*/
+
+@media screen and (max-width:767px){
+    .card{
+        .card-img-top{
+            width: 40%;
+        }
+    }
+
+    .contacto-info-datos-2{
+        order: 1;
+        background: none;
+        box-shadow: none;
+        height: 50px;
+    }
+
+    .contacto-info-map{
+        order: 0;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .about-us-texto{
+        padding: 15px;
+        p{
+            font-size: 18px;
+        }
+    }
+    .about-us-img{
+        img{
+            height: 388.4px;
+        }
+    }
+}

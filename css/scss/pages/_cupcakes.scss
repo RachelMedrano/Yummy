@@ -1,0 +1,46 @@
+.card-precio{
+    //height: 350px;
+    padding: 30px 0;
+    box-shadow: 2px 6px 8px #666; 
+    border: 0;
+    
+    .card-img-top{
+        width: 50%;
+    }
+
+    .card-title{
+        font-family: $text-font;
+        font-weight: bold;
+    }
+
+    .price{
+        background: $second-color;
+        border: none;
+        color: #000;
+        font-family: $text-font;
+        font-weight: 300;
+        width: 100%;
+        padding: 5px 15px;
+        text-align: center;
+        margin: 0;
+        .img-colon{
+            width: 9%;
+        }
+    }
+
+}
+
+/*-- MediaQueries --*/
+
+@media screen and (max-width:767px){
+    .card-precio{
+        .card-img-top{
+            width: 40%;
+        }
+        .price{
+            .img-colon{
+                width: 6%;
+            }
+        }
+    }
+}

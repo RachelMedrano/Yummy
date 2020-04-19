@@ -1,0 +1,276 @@
+@font-face {
+  font-family: "CurlzMT";
+  src: url("../font/CurlzMT.woff");
+}
+.nav {
+  background: #79B5C5;
+}
+.nav h2 {
+  color: #FFFBFA;
+  font-family: "CurlzMT";
+}
+.nav nav ul {
+  margin: 0;
+  padding: 0;
+}
+.nav nav ul li {
+  display: inline-block;
+  margin: 0;
+}
+.nav nav ul a {
+  color: #FFFBFA;
+  text-decoration: none;
+  padding: 20px 10px;
+  font-family: "Comic Neue";
+  font-weight: bold;
+}
+.nav nav ul a:hover {
+  background: #FFFBFA;
+  color: #79B5C5;
+  transition: ease-in 0.3s;
+}
+
+.nav-link {
+  padding: 10px !important;
+  text-align: center;
+  color: #FFFBFA !important;
+}
+.nav-link:hover {
+  color: #79B5C5 !important;
+}
+
+.navbar-toggler span {
+  color: #FFFBFA !important;
+}
+
+.imagen {
+  padding: 0;
+}
+
+.footer {
+  background: #79B5C5;
+  color: #FFFBFA;
+  font-family: "Comic Neue";
+  font-weight: 300;
+}
+
+.copy h6 {
+  margin-bottom: 0;
+}
+
+.footer-iconos {
+  font-size: 22px;
+}
+.footer-iconos i {
+  color: #FFFBFA;
+  margin: 10px;
+}
+.footer-iconos i:hover {
+  color: #036078;
+}
+
+/*-- MediaQueries --*/
+@media screen and (max-width: 767px) {
+  .footer {
+    text-align: center;
+  }
+  .footer h6 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .footer-iconos {
+    font-size: 18px;
+  }
+  .footer-iconos i {
+    margin: 0px 10px;
+  }
+}
+.card {
+  padding: 30px;
+  box-shadow: 2px 6px 8px #666;
+}
+.card .card-img-top {
+  width: 70%;
+}
+.card .card-title {
+  font-family: "Comic Neue";
+  font-weight: bold;
+}
+.card .btn {
+  background: #F8A2AA;
+  border: none;
+  color: #000;
+  font-family: "Comic Neue";
+  font-weight: 300;
+  border-radius: 30px;
+  width: auto;
+  padding: 5px 15px;
+}
+.card .btn:hover {
+  background: #79B5C5;
+  color: #FFFBFA;
+}
+
+.about-us {
+  background: #79B5C5;
+}
+
+.about-us-texto {
+  color: #FFFBFA;
+  font-family: "Comic Neue";
+  font-weight: 300;
+  padding: 30px;
+}
+.about-us-texto h2 {
+  font-weight: bold;
+  font-family: "Ribeye";
+}
+.about-us-texto hr {
+  background-color: #FFFBFA;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.about-us-texto p {
+  margin-left: 30px;
+  font-size: 22px;
+}
+
+.about-us-img {
+  padding: 0;
+}
+
+.contacto {
+  box-shadow: 3px 6px 8px #666;
+}
+
+.contacto-info-datos {
+  background: #F8A2AA;
+  height: 300px;
+  box-shadow: 0 6px 8px #666;
+  order: 0;
+}
+
+.contacto-info-datos-2 {
+  background: #F8A2AA;
+  height: 300px;
+  box-shadow: 0 6px 8px #666;
+  order: 0;
+}
+.contacto-info-datos-2 .datos-texto {
+  padding-left: 0;
+  font-size: 15px;
+  text-align: center;
+}
+.contacto-info-datos-2 .datos-texto span img {
+  width: 18%;
+}
+
+.contacto-info-map {
+  padding: 0;
+  background: seagreen;
+  height: 300px;
+  order: 1;
+}
+.contacto-info-map iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.icono {
+  padding: 0;
+}
+.icono img {
+  width: 80%;
+}
+
+.datos p {
+  font-family: "Comic Neue";
+  font-weight: 300;
+  font-size: 16;
+  margin: 0;
+}
+
+.datos-texto {
+  padding-right: 0;
+}
+
+/*-- MediaQueries --*/
+@media screen and (max-width: 767px) {
+  .card .card-img-top {
+    width: 40%;
+  }
+
+  .contacto-info-datos-2 {
+    order: 1;
+    background: none;
+    box-shadow: none;
+    height: 50px;
+  }
+
+  .contacto-info-map {
+    order: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .about-us-texto {
+    padding: 15px;
+  }
+  .about-us-texto p {
+    font-size: 18px;
+  }
+
+  .about-us-img img {
+    height: 388.4px;
+  }
+}
+.card-precio {
+  padding: 30px 0;
+  box-shadow: 2px 6px 8px #666;
+  border: 0;
+}
+.card-precio .card-img-top {
+  width: 50%;
+}
+.card-precio .card-title {
+  font-family: "Comic Neue";
+  font-weight: bold;
+}
+.card-precio .price {
+  background: #F8A2AA;
+  border: none;
+  color: #000;
+  font-family: "Comic Neue";
+  font-weight: 300;
+  width: 100%;
+  padding: 5px 15px;
+  text-align: center;
+  margin: 0;
+}
+.card-precio .price .img-colon {
+  width: 9%;
+}
+
+/*-- MediaQueries --*/
+@media screen and (max-width: 767px) {
+  .card-precio .card-img-top {
+    width: 40%;
+  }
+  .card-precio .price .img-colon {
+    width: 6%;
+  }
+}
+.container {
+  background: #FFFBFA;
+}
+
+body {
+  background: #E9E0DD;
+}
+
+.titulo {
+  font-family: "Ribeye";
+  font-size: 30px;
+  color: #707070;
+}

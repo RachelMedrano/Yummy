@@ -1,0 +1,49 @@
+.nav{
+    background: $primary-color;
+    h2{
+        color: $third-color;
+        font-family: $logo-font;
+    }
+    nav{
+        ul{
+            margin: 0;
+            padding: 0; 
+            li{
+                display: inline-block;
+                margin: 0;
+            }
+            a{
+                color: $third-color;
+                text-decoration: none;
+                padding: 20px 10px;
+                font-family: $text-font;
+                font-weight: bold;
+                
+                &:hover{
+                    background: $third-color;
+                    color: $primary-color;
+                    transition: ease-in .3s;
+                }
+            }
+        }
+    }
+}
+
+.nav-link{
+    padding: 10px!important;
+    text-align: center;
+    color: $third-color!important;
+    &:hover{
+        color: $primary-color!important;
+    }
+}
+
+.navbar-toggler{
+    span{
+        color: $third-color!important;
+    }
+}
+
+.imagen{
+    padding: 0;
+}
